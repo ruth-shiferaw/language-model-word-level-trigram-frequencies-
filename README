@@ -1,5 +1,5 @@
-Ruth Shiferaw
-RSHIFER1
+Ruth Shiferaw's Language Model
+
 
 - Briefly justify the structure of your program; why you defined the functions you did, etc.
 My program creates empty vectors and maps in the main hw5.cpp function, then utilizes functions within language_model.cpp to pass them by reference and update their contents in main. The main function loads and stores the words of the .txt files within main, then all of the other operations are handled within the switch statement. Each switch statement contains a function that will execute and reorder the map that contains all the trigrams in the specified order depending on the command that was selected.
